@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Inkomst och utgifter</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="/main.scss">
+    <script src="script.js" defer></script>
+</head>
+
+
+  <body>
+ 
+<div id="table">
+
+
+  <!-- Bakgrund för summor -->
+      <div class="container">
+      <h4>TOTALT</h4>
+      <h1 id="balance">0kr</h1>
+      <div class="box-container">
+
+        <!-- Div för inkomst -->
+        <div>
+        <h4>Inkomst</h4>
+        <p id="money-plus" class="money plus">+0 SEK</p>
+        </div>
+
+        <!-- Div för utgift -->
+        <div>
+        <h4>Utgift</h4>
+        <p id="money-minus" class="money minus">-0 SEK</p>
+        </div>
+        </div>
+
+        <!-- Lista med transaktioner -->
+      <h3>Tidigare transaktioner</h3>
+      <ul id="list" class="list">
+      </ul>
+
+      <!-- Formuläret där man skriver in inkomst och utgift -->
+      <form id="form">
+      <div class="form-control">
+      <label for="text">Inkomst eller utgift</label>
+      <input type="text" id="text" placeholder="Skriv in inkomst eller utgift (SEK)" />
+        </div>
+
+
+        <div class="form-control">
+        <label for="amount"> Skriv in värde (SEK) </label>
+        <input type="number" id="amount" placeholder="Summa (SEK)"/>
+         </div>
+
+         <!-- Knapp för att lägga till -->
+        <button class="btn">Lägg till transaktion</button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>

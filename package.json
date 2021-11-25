@@ -1,0 +1,17 @@
+{
+  "name": "inlamning-2-javascript",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
